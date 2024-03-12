@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29A4FD81-8F21-433E-BBF1-ECF4ABB53BC4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{28085CCA-5C9C-4D6C-B882-F9817B70CD43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncSync.WaitApi", "src\AsyncSync.WaitApi\AsyncSync.WaitApi.csproj", "{58C70D72-654C-4E08-9756-612368B06D47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncSync.ClientApi", "src\AsyncSync.ClientApi\AsyncSync.ClientApi.csproj", "{F309253E-AA45-4560-8138-213D11B88327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58C70D72-654C-4E08-9756-612368B06D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C70D72-654C-4E08-9756-612368B06D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C70D72-654C-4E08-9756-612368B06D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C70D72-654C-4E08-9756-612368B06D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F309253E-AA45-4560-8138-213D11B88327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F309253E-AA45-4560-8138-213D11B88327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F309253E-AA45-4560-8138-213D11B88327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F309253E-AA45-4560-8138-213D11B88327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58C70D72-654C-4E08-9756-612368B06D47} = {28085CCA-5C9C-4D6C-B882-F9817B70CD43}
+		{F309253E-AA45-4560-8138-213D11B88327} = {28085CCA-5C9C-4D6C-B882-F9817B70CD43}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFA21236-5DB6-4A96-BDCE-969B807526B8}
+	EndGlobalSection
+EndGlobal

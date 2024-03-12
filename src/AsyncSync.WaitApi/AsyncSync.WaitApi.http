@@ -1,0 +1,6 @@
+@AsyncSync.WaitApi_HostAddress = http://localhost:5003
+
+GET {{AsyncSync.WaitApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
